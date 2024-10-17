@@ -43,7 +43,7 @@ function randomSquare() {
         square.classList.remove("enemy");
     });
 
-    let randomNumber = Math.floor(Math.random() * 9);
+    let randomNumber = Math.floor(Math.random() * 25);
     let randomSquare = state.view.squares[randomNumber];
 
     state.values.hitPosition = randomSquare.id;

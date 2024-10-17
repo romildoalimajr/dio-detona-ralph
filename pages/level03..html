@@ -10,12 +10,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-    <link rel="icon" type="image/png" sizes="16x16"  href="./image/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+    <style>
+        .square {
+            width: 120px;
+            height: 120px;
+            border: 1px solid #000000;
+            background-color: #1AEAA5;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,8 +40,7 @@
                 <h2 id="score">0</h2>
             </div>
             <div class="menu-lives">
-                <img src="./image/player.png" 
-                alt="Photo of Player" >
+                <img src="../image/player.png" alt="Photo of Player">
                 <h2 id="life">x3</h2>
             </div>
         </div>
@@ -42,25 +49,42 @@
                 <div class="square enemy" id="1"></div>
                 <div class="square" id="2"></div>
                 <div class="square" id="3"></div>
-                
-            </div>
-            <div class="panel-row">
                 <div class="square" id="4"></div>
                 <div class="square" id="5"></div>
-                <div class="square" id="6"></div>
-                
             </div>
             <div class="panel-row">
+                <div class="square" id="6"></div>
                 <div class="square" id="7"></div>
                 <div class="square" id="8"></div>
                 <div class="square" id="9"></div>
-                
+                <div class="square" id="10"></div>
             </div>
-        
+            <div class="panel-row">
+                <div class="square" id="11"></div>
+                <div class="square" id="12"></div>
+                <div class="square" id="13"></div>
+                <div class="square" id="14"></div>
+                <div class="square" id="15"></div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="16"></div>
+                <div class="square" id="17"></div>
+                <div class="square" id="18"></div>
+                <div class="square" id="19"></div>
+                <div class="square" id="20"></div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="21"></div>
+                <div class="square" id="22"></div>
+                <div class="square" id="23"></div>
+                <div class="square" id="24"></div>
+                <div class="square" id="25"></div>
+            </div>
+
         </div>
     </div>
 
-    <script src="./javascript/engine.js"></script>
+    <script src="../javascript/engine5x5.js"></script>
 </body>
 
 </html>
